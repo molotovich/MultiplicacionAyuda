@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:orientation="vertical"
+    tools:context=".Selector">
+    
+    <TextView
+        android:id="@+id/titulo"
+        android:text="Elije la tabla que deseas ver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_below="@+id/titulo"
+        android:id="@+id/number1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="1"
+        android:textColor="@color/white"
+        android:onClick="Tabla1"/>
+
+    <TextView
+        android:id="@+id/number2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number1"
+        android:padding="24dp"
+        android:text="2"
+        android:textColor="@color/white"
+        android:background="#8BC34A"
+        android:onClick="Tabla2"/>
+
+    <TextView
+        android:id="@+id/number3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number2"
+        android:padding="24dp"
+        android:text="3"
+        android:textColor="@color/white"
+        android:onClick="Tabla3"/>
+
+    <TextView
+        android:id="@+id/number4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number3"
+        android:padding="24dp"
+        android:text="4"
+        android:textColor="@color/white"
+        android:background="#8BC34A"
+        android:onClick="Tabla4"/>
+
+    <TextView
+        android:id="@+id/number5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number4"
+        android:padding="24dp"
+        android:text="5"
+        android:textColor="@color/white"
+
+        android:onClick="Tabla5"/>
+
+    <TextView
+        android:id="@+id/number6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number5"
+        android:padding="24dp"
+        android:text="6"
+        android:textColor="@color/white"
+        android:background="#8BC34A"
+        android:onClick="Tabla6"/>
+
+    <TextView
+        android:id="@+id/number7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number6"
+        android:padding="24dp"
+        android:text="7"
+        android:textColor="@color/white"
+        android:onClick="Tabla7" />
+
+    <TextView
+        android:id="@+id/number8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number7"
+        android:padding="24dp"
+        android:text="8"
+        android:textColor="@color/white"
+        android:background="#8BC34A"
+        android:onClick="Tabla8"/>
+
+    <TextView
+        android:id="@+id/number9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number8"
+        android:padding="24dp"
+        android:text="9"
+        android:textColor="@color/white"
+        android:onClick="Tabla9"/>
+
+</RelativeLayout>
